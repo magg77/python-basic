@@ -9,7 +9,7 @@ from .serializers import ProjectSerializer, TaskWithProjectSerializer, ProjectWi
 
 
 
-# api views generics
+# api views generic
 
 # get project
 class ProjectApiList(generics.ListAPIView):
